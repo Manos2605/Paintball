@@ -176,7 +176,7 @@ export default function PaintballEvent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <motion.div variants={itemVariants} className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl z-10 transform rotate-12">
-                2000 FCFA
+                6000 FCFA
               </div>
               <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
                 <div className="relative h-64">
@@ -196,18 +196,22 @@ export default function PaintballEvent() {
                     </li>
                     <li className="flex items-center">
                       <Target className="h-5 w-5 text-blue-400 mr-2" />
-                      <span>50 billes incluses</span>
+                      <span>80 balles</span>
                     </li>
                     <li className="flex items-center">
                       <Users className="h-5 w-5 text-blue-400 mr-2" />
-                      <span>Accès au terrain pendant 2h</span>
+                      <span>Une boisson rafraîchissante</span>
                     </li>
                     <li className="flex items-center">
                       <Zap className="h-5 w-5 text-blue-400 mr-2" />
-                      <span>Briefing de sécurité</span>
+                      <span>Un casse croûte</span>
+                    </li>
+                    <li className="flex items-center">
+                      <Zap className="h-5 w-5 text-blue-400 mr-2" />
+                      <span>Accèes au groupe Prenium PAINTBALL CLASH pour les évènement futures</span>
                     </li>
                   </ul>
-                  <Button className="w-full mt-6 bg-blue-600 hover:bg-blue-700">Réserver</Button>
+                  <Button className="w-full mt-6 bg-blue-600 hover:bg-blue-700"><a href="https://wa.me/message/Q4PPKUMAGEVQO1">Réserver</a></Button>
                 </CardContent>
               </Card>
             </motion.div>
@@ -286,6 +290,33 @@ export default function PaintballEvent() {
                   </div>
                 </TabsContent>
               </Tabs>
+            </motion.div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <motion.div variants={itemVariants} className="relative">
+              <div className="absolute -top-4 -left-4 w-24 h-24 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl z-10 transform rotate-12">
+                2000 FCFA
+              </div>
+              <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
+                <div className="relative h-64">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250312-WA0218.jpg-3Tkq9HvBHQSPIewgqkIrD5F4mzBoCc.jpeg"
+                    alt="Joueur de paintball"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold mb-4 text-white">Pack Spécial</h3>
+                  <ul className="space-y-3">
+                    <li className="flex items-center">
+                      <Target className="h-5 w-5 text-blue-400 mr-2" />
+                      <span> +50 balles pour prolonger le massacre</span>
+                    </li>
+                  </ul>
+                  <Button className="w-full mt-6 bg-blue-600 hover:bg-blue-700"><a href="https://wa.me/message/Q4PPKUMAGEVQO1">Réserver</a></Button>
+                </CardContent>
+              </Card>
             </motion.div>
           </div>
         </div>
@@ -367,10 +398,10 @@ export default function PaintballEvent() {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
-                S'inscrire maintenant
+                <a href="https://chat.whatsapp.com/CSBZ2Q5Vmb0Hhw6wOtOkAu">Groupe WhatsApp</a>
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                En savoir plus
+              <a href="https://wa.me/message/Q4PPKUMAGEVQO1">En savoir plus</a>
               </Button>
             </motion.div>
           </div>

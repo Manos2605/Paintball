@@ -10,3 +10,15 @@ Ce projet a été conçu pour permmettre de présenter un évènement sur le suj
    ```bash
    git clone https://github.com/Manos2605/Paintball.git
    ```
+2. Accédez au dossier du projet :
+   ```bash
+   cd paintball
+   ```
+3. Installer les dépendances :
+   ```bash
+   npm install
+   ```
+3. Lancer le server :
+   ```bash
+   npm run dev
+   ```

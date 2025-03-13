@@ -245,8 +245,7 @@ export default function PaintballEvent() {
                       <MapPin className="h-5 w-5 text-red-500 mr-3 mt-1" />
                       <div>
                         <h4 className="font-medium">Lieu</h4>
-                        <p className="text-gray-400">Paintball Club d'Olembe  
-</p>
+                        <p className="text-gray-400">Paintball Club d'Olembe </p>
                       </div>
                     </div>
                     <div className="flex items-start">
@@ -275,7 +274,7 @@ export default function PaintballEvent() {
                       <p>698 196 985</p>
                     </div>
                     <p className="text-sm text-gray-400">
-                      Pour réserver il faut simplement faire le dépot et envoyer par WhatsApp en cliquant sur le boutton Réserver
+                      Pour réserver il faut simplement faire le dépot et envoyer une capture par WhatsApp en cliquant sur le boutton Réserver
                       Pour toute information supplémentaire, n'hésitez pas à nous contacter.
                     </p>
                     <div className="pt-4">
@@ -299,7 +298,7 @@ export default function PaintballEvent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <motion.div variants={itemVariants} className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl z-10 transform rotate-12">
-                2000 FCFA
+                Prix
               </div>
               <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
                 <div className="relative h-64">

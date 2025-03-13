@@ -183,9 +183,11 @@ export default function PaintballEvent() {
               <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
                 <div className="relative h-64">
                   <Image
-                    src="img/IMG-20250312-WA0197.jpg"
+                    /* src="img/IMG-20250312-WA0197.jpg" */
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250312-WA0197.jpg-mRHDZD6z28Hp1ivSKq90JlEUHUyrWk.jpeg"
                     alt="Joueur de paintball"
                     fill
+                    priority={true}
                     className="object-cover"
                   />
                 </div>
@@ -303,9 +305,11 @@ export default function PaintballEvent() {
               <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
                 <div className="relative h-64">
                   <Image
-                    src="img/IMG-20250312-WA0221.jpg"
+                    /* src="img/IMG-20250312-WA0221.jpg" */
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250312-WA0221.jpg-zaZgmjCq4NsgRe8Gu0iOBiKXQ8TBn5.jpeg"
                     alt="Joueur de paintball"
                     fill
+                    priority={true}
                     className="object-cover"
                   />
                 </div>
@@ -403,7 +407,7 @@ export default function PaintballEvent() {
               <Button size="lg" className="bg-[#25D366] hover:bg-[#128C7E] text-white">
                 <a href="https://chat.whatsapp.com/CSBZ2Q5Vmb0Hhw6wOtOkAu">Groupe WhatsApp</a>
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10">
               <a href="https://wa.me/message/Q4PPKUMAGEVQO1">En savoir plus</a>
               </Button>
             </motion.div>

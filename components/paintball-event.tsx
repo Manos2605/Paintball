@@ -10,8 +10,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { Calendar, Clock, MapPin, Phone, Target, Users, ChevronRight, Crosshair, Trophy, Zap } from "lucide-react"
 
-// Date de l'événement (31 mars 2025)
-const EVENT_DATE = new Date(2025, 2, 31, 9, 0, 0).getTime()
+// Date de l'événement (5 avril 2025)
+const EVENT_DATE = new Date(2025, 3, 5, 9, 0, 0).getTime()
 
 export default function PaintballEvent() {
   const [timeLeft, setTimeLeft] = useState({
@@ -133,7 +133,9 @@ export default function PaintballEvent() {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white border-none rounded-full px-8">
-              S'inscrire maintenant
+              <a href="https://wa.me/message/Q4PPKUMAGEVQO1">
+                S'inscrire maintenant
+              </a>
               <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
           </motion.div>
@@ -176,20 +178,20 @@ export default function PaintballEvent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <motion.div variants={itemVariants} className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl z-10 transform rotate-12">
-                6000 FCFA
+                Prix
               </div>
-              <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
-                <div className="relative h-64">
+              <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full flex flex-col">
+                <div className="relative h-80 w-full h-full">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250312-WA0218.jpg-3Tkq9HvBHQSPIewgqkIrD5F4mzBoCc.jpeg"
+                    src="img/IMG-20250312-WA0197.jpg"
                     alt="Joueur de paintball"
                     fill
-                    className="object-cover"
+                    className="object-cover w-full h-full"
                   />
                 </div>
-                <CardContent className="p-6">
+                <CardContent className="p-6 flex flex-col justify-between">
                   <h3 className="text-2xl font-bold mb-4 text-white">Pack Standard</h3>
-                  <ul className="space-y-3">
+                  {/* <ul className="space-y-3">
                     <li className="flex items-center">
                       <Crosshair className="h-5 w-5 text-blue-400 mr-2" />
                       <span>Équipement complet</span>
@@ -210,7 +212,7 @@ export default function PaintballEvent() {
                       <Zap className="h-5 w-5 text-blue-400 mr-2" />
                       <span>Accèes au groupe Prenium PAINTBALL CLASH pour les évènement futures</span>
                     </li>
-                  </ul>
+                  </ul> */}
                   <Button className="w-full mt-6 bg-blue-600 hover:bg-blue-700"><a href="https://wa.me/message/Q4PPKUMAGEVQO1">Réserver</a></Button>
                 </CardContent>
               </Card>
@@ -229,7 +231,7 @@ export default function PaintballEvent() {
                       <Calendar className="h-5 w-5 text-red-500 mr-3 mt-1" />
                       <div>
                         <h4 className="font-medium">Date</h4>
-                        <p className="text-gray-400">31 Mars 2025</p>
+                        <p className="text-gray-400">5 Avril 2025</p>
                       </div>
                     </div>
                     <div className="flex items-start">
@@ -243,15 +245,15 @@ export default function PaintballEvent() {
                       <MapPin className="h-5 w-5 text-red-500 mr-3 mt-1" />
                       <div>
                         <h4 className="font-medium">Lieu</h4>
-                        <p className="text-gray-400">Terrain de Paintball, Zone Sportive</p>
+                        <p className="text-gray-400">Paintball Club d'Olembe</p>
                       </div>
                     </div>
                     <div className="flex items-start">
                       <Trophy className="h-5 w-5 text-red-500 mr-3 mt-1" />
-                      <div>
+                      {/* <div>
                         <h4 className="font-medium">Prix à gagner</h4>
                         <p className="text-gray-400">Trophée + Équipement professionnel</p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </TabsContent>
@@ -271,7 +273,7 @@ export default function PaintballEvent() {
                       <Phone className="h-5 w-5 text-red-500 mr-3" />
                       <p>698 196 985</p>
                     </div>
-                    <p className="text-sm text-gray-400">
+                    <p className="text-sm text-gray-400">Dépot et capure d'écran envoyer sur WhatsApp en cliquant sur résever.
                       Pour toute information supplémentaire, n'hésitez pas à nous contacter.
                     </p>
                     <div className="pt-4">
@@ -295,12 +297,12 @@ export default function PaintballEvent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <motion.div variants={itemVariants} className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl z-10 transform rotate-12">
-                2000 FCFA
+                Prix
               </div>
               <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
-                <div className="relative h-64">
+                <div className="relative h-80 w-full h-full">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250312-WA0218.jpg-3Tkq9HvBHQSPIewgqkIrD5F4mzBoCc.jpeg"
+                    src="img/IMG-20250312-WA0221.jpg"
                     alt="Joueur de paintball"
                     fill
                     className="object-cover"

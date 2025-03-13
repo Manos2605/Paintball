@@ -180,16 +180,16 @@ export default function PaintballEvent() {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl z-10 transform rotate-12">
                 Prix
               </div>
-              <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full flex flex-col">
-                <div className="relative h-80 w-full h-full">
+              <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
+                <div className="relative h-64">
                   <Image
                     src="img/IMG-20250312-WA0197.jpg"
                     alt="Joueur de paintball"
                     fill
-                    className="object-cover w-full h-full"
+                    className="object-cover"
                   />
                 </div>
-                <CardContent className="p-6 flex flex-col justify-between">
+                <CardContent className="p-6">
                   <h3 className="text-2xl font-bold mb-4 text-white">Pack Standard</h3>
                   {/* <ul className="space-y-3">
                     <li className="flex items-center">
@@ -245,7 +245,8 @@ export default function PaintballEvent() {
                       <MapPin className="h-5 w-5 text-red-500 mr-3 mt-1" />
                       <div>
                         <h4 className="font-medium">Lieu</h4>
-                        <p className="text-gray-400">Paintball Club d'Olembe</p>
+                        <p className="text-gray-400">Paintball Club d'Olembe  
+</p>
                       </div>
                     </div>
                     <div className="flex items-start">
@@ -273,7 +274,8 @@ export default function PaintballEvent() {
                       <Phone className="h-5 w-5 text-red-500 mr-3" />
                       <p>698 196 985</p>
                     </div>
-                    <p className="text-sm text-gray-400">Dépot et capure d'écran envoyer sur WhatsApp en cliquant sur résever.
+                    <p className="text-sm text-gray-400">
+                      Pour réserver il faut simplement faire le dépot et envoyer par WhatsApp en cliquant sur le boutton Réserver
                       Pour toute information supplémentaire, n'hésitez pas à nous contacter.
                     </p>
                     <div className="pt-4">
@@ -297,10 +299,10 @@ export default function PaintballEvent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <motion.div variants={itemVariants} className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl z-10 transform rotate-12">
-                Prix
+                2000 FCFA
               </div>
               <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
-                <div className="relative h-80 w-full h-full">
+                <div className="relative h-64">
                   <Image
                     src="img/IMG-20250312-WA0221.jpg"
                     alt="Joueur de paintball"
@@ -399,7 +401,7 @@ export default function PaintballEvent() {
               viewport={{ once: true }}
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
-              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
+              <Button size="lg" className="bg-[#25D366] hover:bg-[#128C7E] text-white">
                 <a href="https://chat.whatsapp.com/CSBZ2Q5Vmb0Hhw6wOtOkAu">Groupe WhatsApp</a>
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
